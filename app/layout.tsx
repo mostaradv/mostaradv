@@ -4,6 +4,9 @@ import WhatsAppButton from "../components/WhatsAppButton";
 export const metadata = {
   title: "MostarADV",
   description: "Dual-sport motorcycle rentals in Mostar",
+  verification: {
+    google: "googledc74872afad89d05.html",
+  },
 };
 
 export default function RootLayout({
