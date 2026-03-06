@@ -2,8 +2,9 @@ import "./globals.css";
 import WhatsAppButton from "../components/WhatsAppButton";
 
 export const metadata = {
-  title: "MostarADV",
-  description: "Dual-sport motorcycle rentals in Mostar",
+  title: "MostarADV | Motorcycle Rental & Adventure Tours in Mostar, Bosnia",
+  description:
+    "Dual-sport motorcycle rental in Mostar, Bosnia and Herzegovina. Explore Fortica, Hum, and the best off-road routes in Herzegovina with adventure bikes and local riding tips.",
   verification: {
     google: "usxWiKVgrc64nySOgRbBYl3vK0x3un5vMlyxPIdBPMY",
   },
