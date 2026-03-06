@@ -3,6 +3,27 @@ import Link from "next/link";
 export default function Home() {
   return (
     <section className="mx-auto max-w-6xl px-6 py-20">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TouristActivityCompany",
+            name: "MostarADV",
+            url: "https://mostaradv.com",
+            description:
+              "Motorcycle rental and adventure riding tours based in Mostar, Bosnia and Herzegovina.",
+            areaServed: "Bosnia and Herzegovina",
+            address: {
+              "@type": "PostalAddress",
+              addressLocality: "Mostar",
+              addressCountry: "BA",
+            },
+            sameAs: ["https://www.instagram.com/mostaradv"],
+          }),
+        }}
+      />
+
       {/* HERO ROW: text left, logo right (desktop) */}
       <div className="flex flex-col gap-10 md:flex-row md:items-start md:justify-between">
         {/* LEFT: Hero text */}
@@ -12,12 +33,12 @@ export default function Home() {
           </p>
 
           <h1 className="mt-5 text-5xl font-medium leading-[1.03] md:text-7xl">
-  Motorcycle Rental & Adventure Tours in Mostar
-</h1>
+            Motorcycle Rental & Adventure Tours in Mostar
+          </h1>
 
           <p className="mt-4 text-lg text-neutral-600 md:text-2xl">
-  MostarADV — Your base for adventure riding in Herzegovina.
-</p>
+            MostarADV — Your base for adventure riding in Herzegovina.
+          </p>
 
           <p className="mt-6 max-w-2xl text-base text-white/75 md:text-lg">
             Lightweight dual-sport rentals with accommodation in heart of Mostar
