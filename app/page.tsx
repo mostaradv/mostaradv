@@ -12,12 +12,12 @@ export default function Home() {
           </p>
 
           <h1 className="mt-5 text-5xl font-medium leading-[1.03] md:text-7xl">
-            MostarADV
-          </h1>
+  Motorcycle Rental & Adventure Tours in Mostar
+</h1>
 
           <p className="mt-4 text-lg text-neutral-600 md:text-2xl">
-            Your base for adventure in Herzegovina and beyond.
-          </p>
+  MostarADV — Your base for adventure riding in Herzegovina.
+</p>
 
           <p className="mt-6 max-w-2xl text-base text-white/75 md:text-lg">
             Lightweight dual-sport rentals with accommodation in heart of Mostar
