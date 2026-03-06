@@ -5,7 +5,7 @@ export const metadata = {
   title: "MostarADV",
   description: "Dual-sport motorcycle rentals in Mostar",
   verification: {
-    google: "googledc74872afad89d05.html",
+    google: "usxWiKVgrc64nySOgRbBYl3vK0x3un5vMlyxPIdBPMY",
   },
 };
 
